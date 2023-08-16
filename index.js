@@ -9,9 +9,6 @@ const {
 const program = new Command();
 
 program
-  .version("1.0.0")
-  .description("Manage your contacts")
-  .name("contacts-cli")
   .option("-a, --action <type>", "choose action")
   .option("-i, --id <type>", "user id")
   .option("-n, --name <type>", "user name")
